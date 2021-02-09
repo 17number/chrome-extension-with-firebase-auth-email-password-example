@@ -35,6 +35,8 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "moment": "^2.27.0"
+    "firebase": "^8.2.6",
+    "moment": "^2.27.0",
+    "webextension-polyfill": "^0.7.0"
   }
 }
