@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "0 - webpack babel template",
-  "short_name": "webpack babel template",
-  "description": "webpack babel template",
+  "name": "Chrome Extension With Firebase Auth(Email/Password)",
+  "short_name": "Chrome Extension With Firebase Auth(Email/Password)",
+  "description": "Chrome Extension With Firebase Auth(Email/Password)",
   "version": "0.0.1",
   "author": "17num",
 
@@ -47,6 +47,7 @@
   ],
 
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ]
 }

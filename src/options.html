@@ -6,7 +6,17 @@
   <title>Options Popup</title>
 </head>
 <body>
-  <p>This is options popup</p>
+  <div>
+    <label for="email">Email</label>
+    <div><input id="email" type="email" value="" placeholder="xxxx@example.com"></div>
+    <label for="password">Password</label>
+    <div><input id="password" type="password" value="" placeholder="password"></div>
+    <button id="signin">Sign in</button>
+  </div>
+  <div style="display: none;" data-signin>
+    <label for="uid">Firebase UID</label>
+    <div><input id="uid" type="text" value="" readonly></div>
+  </div>
 </body>
 <script src="options.js"></script>
 </html>
